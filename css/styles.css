@@ -1,0 +1,144 @@
+/****************** ELEMENT SELECTORS *******************/
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: dotted;
+  border-width: 10px;
+  border-bottom: none;
+  width: 7%;
+}
+
+/****************** CLASS SELECTORS *******************/
+
+.top-container {
+  background-color: #ecfcff;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.profile {
+  margin: 50px auto;
+}
+
+.introduction {
+  margin: auto;
+  width: 40%;
+}
+
+.skills {
+  margin: 50px auto;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.skill1-img {
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.skill2-img {
+  float: right;
+  margin-left: 30px;
+  width: 30%;
+}
+
+.contact-me {
+  margin: 50px auto;
+}
+
+.ending {
+  margin: 0 auto 40px;
+  width: 40%;
+}
+
+.btn{
+  color: #EAF6F6;
+  background-color: #66BFBF;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 8px 13px;
+}
+
+.btn:hover {
+  color: #66BFBF;
+  background-color: #EAF6F6;
+  border-color: #66BFBF;
+  border-style: solid;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  padding: 30px;
+}
+
+.footer-link {
+  padding: 0 10px;
+}
+
+.copyright {
+  font-size: 10px;
+  margin-top: 25px;
+}
